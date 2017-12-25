@@ -1,0 +1,73 @@
+/*网页公共样式*/
+	.wrap{width: 1200px;margin-left: auto;margin-right: auto;}
+	.leftArea{float: left;}
+	.rightArea{float: right;}
+	.boos a{transition: color .3s,background-color .3s;}
+	.mb20{margin-bottom: 20px;}
+	.mb40{margin-bottom: 40px;}
+	.mr30{margin-right: 30px;}
+	.mr0{margin-right: 0px;}
+
+	/*topBar*/
+	.topBar{height: 36px;background-color: #f7f7f7;line-height: 36px;border-bottom: 1px solid #e5e5e5;}
+	.topBar a{display: block;float: left; font: 12px/35px PingFangSC-Regular,'-apple-system',Simsun;overflow:hidden;height:35px;color: grey;}
+	.topBar a em{display: block; float:left;}
+	.topBar a:hover{color: red;}
+	.topBar em{display: block;float: left; font: 12px/35px Arial;margin: 0 10px;color: #d9d9d9;}
+	.topBar a.act{position: relative;width: 80px;max-width: 80px;height: 37px;margin-right: 10px;margin-bottom: -1px;text-align:center;color: #575757;border-right: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;background: #fff;}
+
+	/*logo*/
+	.logoBox{height: 84px;background-color: #ffffff;}
+	.logoBox .logo{width: 219px;height: 64px;margin:10px 185px 0 0;}
+	.logoBox .logo a{display: block;width: 219px;height: 64px;background: url(img/qidianlogo01.jpg) no-repeat;}
+	.search-Box{width: 389px;height: 40px;margin: 22px 0 0 0;}
+	.search-Box p{float: left;overflow: hidden;width: 348px;height: 38px;border: 1px solid #dbdbdb;border-right: none}
+	.search_text{width: 338px;height: 38px;line-height: 38px\9;/* \9 是指所有的的IE浏览器 */padding: 0 5px;background-color: #fff;}
+	.search_btn{width: 40px;height: 40px;font-size: 14px;font-family: "MicrosoftYaHei","微软雅黑";background-color: #bf2c24;color: #fff;}
+
+	/*我的书架*/
+	.book-shelf{width: 120px;height: 40px;background: #fff;margin-top: 22px;}
+	.book-shelf a{display: block; font: 14px/1 PingFangSC-Regular,'-apple-system',Simsun;width: 120px;height: 40px; text-align: center;border: 1px solid #e6e6e6;color: #262665}
+	.book-shelf i{font-style: normal; line-height: 38px;overflow: hidden;width: 56px;height: 38px;margin-right: 3px;}
+
+	/*导航*/
+	.navBox{position: relative;z-index: 30;margin-bottom: 10px;background-color: #3e3d43;height: 40px;}
+	.navBox li{float: left;}
+	.navBox li.first{position: relative;width:216px;height: 40px;margin-right:40px;cursor: pointer;background-color: #313035;}
+	.navBox li.first span{font: 16px/38px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;display: block;padding: 0 0 0 18px;transition: all .5s;color: #fff;background-color: #313035;}
+	.navBox .nav li a{font: 16px/38px PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;float: left;height: 38px;padding: 0 32px;color: #fff;border-bottom: 2px solid #333;}
+	.navBox .nav li.game a{padding: 0;background: 0 0;}
+	.navBox .nav li.game{position: relative;float: right;margin-right: 0;}
+	.navBox .nav li.game a.web-game{margin-right: 20px;}
+	.navBox .nav li.game a.phone-game{margin-left: 20px;}
+
+	/*作品分类，通告*/
+	.focurBar{position: relative;z-index: 1;height: 410px;}
+	.book-category{position:relative;top: -11px; width: 214px;height: 420px;border: 1px solid #e6e6e6;border-top: none;}
+	.book-category dd{float: left;width: 50%;height: 60px;background-color: #f7f6f2;}
+	.book-category dd.even{background-color: #fcfcfa;}
+	.book-category dd a{display: block;color: #333;}
+	.book-category dd a cite{position: relative;display: block;overflow: hidden;width: 85px;height: 43px;padding-top: 17px;
+		padding-left: 17px;}
+	.book-category dd a.info{float: left;max-width: 42px;}
+	.book-category dd a cite .info i,.book-category dd a cite .info b{display: block;cursor: pointer;text-align: left;}
+	.book-category dd a cite .info i{font: 14px/1 PingFangSC-Regular,'-apple-system',Simsun;white-space: nowrap;}
+	.book-category dd a cite .info b{font: 12px/1.5 Arial;transition: color .2s;color: #999;}
+	.focur-box{width: 748px;padding-left: 10px; background: red;}
+	.focur-box .focur-slider{width: 100%;height: 250px;background: green;}
+	.focur-box .focur-img{width: 100%;height: 160px;background: blue;}
+	.notice .notice-box{position: relative;width: 214px;height: 248px;margin-bottom: 10px;text-align: center;border: 1px solid #e6e6e6;background: #fcfcfc;}
+ 	.notice .notice-banner{position: relative;width: 216px;height: 150px;background: #454544;}
+
+ 	/*作品推荐*/
+ 	.book-list{width: 214px;height: 595px;border: 1px solid #333333;}
+ 	.week-book{width: 706px;height: 595px;border: 1px solid #333333;}
+
+
+ 	/*广告*/
+ 	.adver{height: 100px; background: #B8860B;}
+
+
+ 	/*排行榜*/
+ 	.rank-list-row{overflow: hidden;width: 101%;height: 423px;}
+ 	.rank-list{position:relative;width: 214px;height: 588px; margin-right: 30px;border:1px solid #333333;}
